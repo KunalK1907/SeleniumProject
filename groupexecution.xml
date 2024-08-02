@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <run><include name="smoke"></include></run>
+  
+  </groups>
+    <classes>
+      <class name="testNG2.Shoe5"/>
+      <class name="testNG1.Bike5"/>
+      <class name="testNG2.Shoe4"/>
+      <class name="testNG1.Bike4"/>
+      <class name="testNG1.Bike3"/>
+      <class name="testNG1.Bike2"/>
+      <class name="testNG2.Shoe1"/>
+      <class name="testNG1.Bike1"/>
+      <class name="testNG2.Shoe3"/>
+      <class name="testNG2.Shoe2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
